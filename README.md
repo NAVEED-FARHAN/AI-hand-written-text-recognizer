@@ -1,0 +1,1 @@
+# AI-hand-written-text-recognizer
