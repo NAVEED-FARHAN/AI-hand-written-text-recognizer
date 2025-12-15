@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import pandas as pd
 
 # Load the trained model
 model = tf.keras.models.load_model("handwriting_model.h5")  # Ensure you saved your model earlier
@@ -78,3 +79,4 @@ label.grid(row=2, column=0, columnspan=2)
 window.mainloop()
 
 model.save("handwriting_model.h5")
+
