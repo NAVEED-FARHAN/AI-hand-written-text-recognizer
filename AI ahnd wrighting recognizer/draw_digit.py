@@ -14,7 +14,6 @@ def predict_digit():
     # Save the canvas content as an image
     filename = "digit.png"
     
-    # Convert the canvas to an image
     image.save(filename)  # Save as PNG directly
 
     # Open and preprocess the image
@@ -79,4 +78,5 @@ label.grid(row=2, column=0, columnspan=2)
 window.mainloop()
 
 model.save("handwriting_model.h5")
+
 
